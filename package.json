@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://brandonjesws.github.io/aleybrandon2023/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
